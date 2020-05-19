@@ -36,5 +36,5 @@ workflows:
     jobs:
       - build-and-test
   carthage-test:
-    job:
+    jobs:
       - carthage-test
